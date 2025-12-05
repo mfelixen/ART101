@@ -1,0 +1,8 @@
+// declaring an array with name myCommutes
+let myCommutes = ["metro bus", "UCSC taps bus", "bike", "car","friends car", "walking"];
+// declaring an object with name myFavouriteCommute
+let myFavouriteCommute = {
+    type: "Bus",
+    route: 1,
+    drivers: ["the bus driver"],
+};

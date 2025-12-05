@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shooting Star</title>
+
+    <style>
+        /* Make the whole page a dark blue night sky */
+        body {
+            margin: 0;
+            height: 100vh; /* full screen height */
+            display: flex;
+            justify-content: center;   /* center left/right */
+            align-items: center;       /* center up/down */
+            background-color: #020b3a; /* dark blue */
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+
+            /* Simple star pattern using tiny white dots */
+            background-image:
+                radial-gradient(white 1px, transparent 1px),
+                radial-gradient(white 1px, transparent 1px);
+            background-size: 80px 80px, 120px 120px;
+            background-position: 0 0, 40px 40px;
+        }
+
+        /* Box that holds the quote */
+        .quote-box {
+            padding: 20px 30px;
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.5); /* see-through black */
+        }
+
+        .quote-text {
+            font-size: 1.8rem;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="quote-box">
+        <p class="quote-text">"I have finally reached the shooting star"</p>
+    </div>
+
+</body>
+</html>
