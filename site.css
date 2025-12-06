@@ -5,3 +5,7 @@ H1, H2, H3 {color: #ffffff; font-family: sans-serif;}
 display: flex;
 gap: 20px;
 }
+.navigation {
+display: flex;
+gap: 20px;
+}
